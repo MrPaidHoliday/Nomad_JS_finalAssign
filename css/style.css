@@ -1,0 +1,33 @@
+.hidden {
+    display: none;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+
+#clock {
+    font-size: xx-largel; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-weight: bold;color: white;
+}
+
+#greeting {
+    font-size: x-large; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Arial, sans-serif;color: white;
+}
+
+#todo-list {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: white;
+}
+
+#quote {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: white; display: block;
+}
+
+#weather {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: white;
+}
+
+.newline {
+    display: block; text-align: center;
+}
