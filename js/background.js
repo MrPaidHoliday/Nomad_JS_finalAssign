@@ -9,5 +9,5 @@ const bgImage = document.createElement("img");
 bgImage.src = `img/${chosenImage}`;
 
 // document.body.appendChild(bgImage);
-document.body.style.background = `url(img/${chosenImage}) no-repeat center center fixed`;
+document.body.style.background = `url(img/${chosenImage}) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;`;
 
